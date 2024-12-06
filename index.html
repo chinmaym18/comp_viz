@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patent Distribution Across MSAs</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        .map-container {
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Patent Distribution Across MSAs</h1>
+        <p>Visualizing the number of patents issued in different metropolitan areas for a selected year</p>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Regional Trends</h2>
+                <p>
+                    This visualization highlights patent activity across Metropolitan Statistical Areas (MSAs) in the United States for the year 2015. 
+                    The darker regions on the map represent higher patent counts, while the lighter regions show lower activity. Key observations:
+                </p>
+                <ul>
+                    <li>Regions such as Silicon Valley, Boston, and Austin are leading with high patent counts.</li>
+                    <li>Activity is concentrated in technology and innovation hubs.</li>
+                    <li>Smaller MSAs show modest activity, indicating localized innovation clusters.</li>
+                </ul>
+            </div>
+            <div class="col-md-12 map-container">
+                <!-- Embed the map -->
+                <iframe src="msa_patents_2011.html" width="100%" height="100%" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
+        <br><br>
+    </footer>
+</body>
+</html>
+
